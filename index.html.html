@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Library</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="wrapper">
+	<header>
+		<a href="#"><div>Help center</div></a>
+		<a href="#"><div id="header-item-2">Our support</div></a>
+		<div id="header-item-3">
+			<a href="#">
+				<img src="img/avatar.png">
+				<span>John Doe</span>
+				<i class="fa fa-check-circle"></i>
+			</a>
+		</div>
+	</header>
+
+	<nav>
+		<h1>Browse Available Books</h1>
+		<div class="panel">
+			<div class="nav-items">
+				<ul>
+					<li id="all_books"><a href="#">All Books</a></li>
+					<li id="recent"><a href="#">Most Recent</a></li>
+					<li id="popular"><a href="#">Most popular</a></li>
+					<li><a href="#">Free Books</a></li>
+				</ul>
+			</div>
+			<div class="search-box">
+				<form id="search-form">
+					<input class="search-text" type="text" name="search" placeholder="Enter Keywords">
+					<button id="search-button">
+						<i class="fa fa-search"></i>
+					</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+		<aside>
+			<div class="button_add">
+				<form id="add-book">
+					<!-- <input type="text" placeholder="Add a books"> -->
+					<button><i class="fa fa-plus"></i> <span>ADD A BOOK</span></button>
+				</form>
+			</div>
+			<div class="menu">
+				<ul>
+					<a href="#"><li><i class="fa fa-book"></i> Now Reading</li></a>
+					<a href="#"><li><i class="fa fa-globe"></i> Browse</li></a>
+					<a href="#"><li><i class="fa fa-shopping-cart"></i> Buy Books</li></a>
+					<a href="#"><li><i class="fa fa-star"></i> Favourite Books</li></a>
+					<a href="#"><li><i class="fa fa-list"></i> Wishlist</li></a>
+					<a href="#"><li><i class="fa fa-clock-o"></i> History</li></a>
+				</ul>
+			</div>
+			<div class="recommend">
+				<ul>
+					<a href="#"><li>Must Read Titles</li></a>
+					<a href="#"><li>Best of List</li></a>
+					<a href="#"><li>Classic Novels</li></a>
+					<a href="#"><li>Non Fiction</li></a>
+				</ul>
+			</div>
+			<div class="history-list">
+				<a href="#"><div><i class="fa fa-clock-o"></i> You added Fight Club by Chuck Palahniuk to your Must Read Titles.<br>24 minutes ago</div></a>
+				<a href="#"><div><i class="fa fa-clock-o"></i> You added The Trial by Franz Kafka to your Must Read Titles.<br>48 minutes ago</div></a>
+
+			</div>
+		</aside>
+
+		<article>
+				<!-- <div>
+					<img src="img/book1.png">
+					<p>Jewels of Nizam</p>
+					<p>by Geeta Devi</p>
+					<p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+				</div>
+				<div>
+					<img src="img/book2.png">
+					<p>Cakes & Bakes</p>
+					<p>by Sanjeev Kapoor</p>
+					<p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+				</div>
+				<div>
+					<img src="img/book3.png">
+					<p>Jamie’s Kitchen</p>
+					<p>by Jamie Oliver</p>
+					<p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></p>
+				</div>
+				<div>
+					<img src="img/book4.png">
+					<p>Inexpensive Family Meals</p>
+					<p>by Simon Holst</p>	
+					<p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>			
+				</div>
+				<div>
+					<img src="img/book5.png">
+					<p>Paleo Slow Cooking</p>
+					<p>by Chrissy Gower</p>
+					<p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></p>
+				</div>
+				<div>
+					<img src="img/book6.png">
+					<p>Cook Like an Italian</p>
+					<p>by Tobie Puttock</p>
+					<p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></p>
+				</div>
+				<div>
+					<img src="img/book7.png">
+					<p>Suneeta Vaswani</p>
+					<p>by Geeta Devi</p>
+					<p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+				</div>
+				<div>
+					<img src="img/book8.png">
+					<p>Jamie Does</p>
+					<p>by Jamie Oliver</p>
+					<p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></p>
+				</div>
+				<div>
+					<img src="img/book9.png">
+					<p>Jamie’s italy</p>
+					<p>by Jamie Oliver</p>
+					<p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+				</div>
+				<div>
+					<img src="img/book10.png">
+					<p>Vegetables Cookbook</p>
+					<p>by Matthew Biggs</p>
+					<p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i></p>
+				</div>
+				<div>
+					<img src="img/book1.png">
+					<p>Jewels of Nizam</p>
+					<p>by Geeta Devi</p>
+					<p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+				</div>
+				<div>
+					<img src="img/book2.png">
+					<p>Cakes & Bakes</p>
+					<p>by Sanjeev Kapoor</p>
+					<p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+				</div>
+				<div>
+					<img src="img/book3.png">
+					<p>Jamie’s Kitchen</p>
+					<p>by Jamie Oliver</p>
+					<p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></p>
+				</div>
+				<div>
+					<img src="img/book4.png">
+					<p>Inexpensive Family Meals</p>
+					<p>by Simon Holst</p>	
+					<p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>			
+				</div> -->
+		</article>
+		<footer>
+			<a href="#">
+				<i class="fa fa-cog"></i>
+			</a>
+			<a href="#">
+				<i class="fa fa-question-circle"></i>
+			</a>
+		</footer>
+</div>
+
+
+		<!-- // var books = [{"id":1,"title":"Jewels of Nizam","author":{"firstName":"Geeta","lastName":"Devi"},"rating":5,"cost":100,"categories":["must_read","best","non_fiction"],"createdAt":1506943763424,"updatedAt":1528046197707,"image_url":"http://rsu-library-api.herokuapp.com/static/images/1.jpg"},{"id":2,"title":"Cakes & Bakes","author":{"firstName":"Sanjeev","lastName":"Kapoor"},"rating":5,"cost":200,"categories":["best","classic"],"createdAt":1506943763424,"updatedAt":1525367797707,"image_url":"http://rsu-library-api.herokuapp.com/static/images/2.jpg"},{"id":3,"title":"Jamie\"s Kitchen","author":{"firstName":"Jamie","lastName":"Oliver"},"rating":4,"cost":300,"categories":["non_fiction"],"createdAt":1506943763424,"updatedAt":1530638197707,"image_url":"http://rsu-library-api.herokuapp.com/static/images/3.jpg"},{"id":4,"title":"Inexpensive Family Meals","author":{"firstName":"Simon","lastName":"Holst"},"rating":3,"cost":50,"categories":[],"createdAt":1506943763424,"updatedAt":1520097397707,"image_url":"http://rsu-library-api.herokuapp.com/static/images/4.jpg"},{"id":5,"title":"Paleo Slow Cooking","author":{"firstName":"Chrissy","lastName":"Gawer"},"rating":4,"cost":1000,"categories":["classic"],"createdAt":1506943763424,"updatedAt":1520097397707,"image_url":"http://rsu-library-api.herokuapp.com/static/images/5.jpg"},{"id":6,"title":"Cook Like an Italian","author":{"firstName":"Toble","lastName":"Puttock"},"rating":3,"cost":12,"categories":["non_fiction"],"createdAt":1506943763424,"updatedAt":1520097397707,"image_url":"http://rsu-library-api.herokuapp.com/static/images/6.jpg"},{"id":7,"title":"Suneeta Vaswani","author":{"firstName":"Geeta","lastName":"Devi"},"rating":5,"cost":504,"categories":["must_read","best","non_fiction"],"createdAt":1506943763424,"updatedAt":1517678197707,"image_url":"http://rsu-library-api.herokuapp.com/static/images/7.jpg"},{"id":8,"title":"Jamie Does","author":{"firstName":"Jamie","lastName":"Oliver"},"rating":3,"cost":100,"categories":[],"createdAt":1506943763424,"updatedAt":1538586997707,"image_url":"http://rsu-library-api.herokuapp.com/static/images/8.jpg"},{"id":9,"title":"Jamie\"s Italy","author":{"firstName":"Jamie","lastName":"Oliver"},"rating":5,"cost":100,"categories":["must_read","best"],"createdAt":1506943763424,"updatedAt":1528046197707,"image_url":"http://rsu-library-api.herokuapp.com/static/images/9.jpg"},{"id":10,"title":"Vegetables Cookbook","author":{"firstName":"Matthew","lastName":"Biggs"},"rating":3,"cost":100,"categories":["must_read","non_fiction"],"createdAt":1506943763424,"updatedAt":1522775797707,"image_url":"http://rsu-library-api.herokuapp.com/static/images/10.jpg"}, {"id":11,"title":"Jewels of Nizam","author":{"firstName":"Geeta","lastName":"Devi"},"rating":5,"cost":100,"categories":["must_read","best","non_fiction"],"createdAt":1506943763424,"updatedAt":1528046197707,"image_url":"http://rsu-library-api.herokuapp.com/static/images/1.jpg"},{"id":12,"title":"Cakes & Bakes","author":{"firstName":"Sanjeev","lastName":"Kapoor"},"rating":5,"cost":200,"categories":["best","classic"],"createdAt":1506943763424,"updatedAt":1525367797707,"image_url":"http://rsu-library-api.herokuapp.com/static/images/2.jpg"}]; -->
+		
+		<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
